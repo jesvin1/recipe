@@ -1,0 +1,142 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+div.content {
+    background-color: white;
+    margin: 0px 20% 80px 20%;
+    padding:30px;
+    min-width: 350px;
+}
+h1 {
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom:12px ;
+}
+p.description {
+    font-style: italic;
+    text-align: center;
+    max-width:400px;
+    display: inline-block;
+    font-size:14px;
+    
+}
+.center {
+    text-align: center;
+    width:100%;
+}
+
+div.category {
+    margin-bottom: -18px;
+}
+p.category {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    /*margin-left: 30px;*/
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 8px 20px;
+    font-weight: Bold;
+    font-size: 16px;
+}
+.seperater {
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    margin-right: auto;
+    margin-left:auto;
+}
+table.info {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%;
+    color: white; 
+    background-color: #6c8290c0; 
+}
+div.info {
+    position: relative;
+}
+
+table.info td {
+    text-align: center;
+    vertical-align: top;
+    font-size: 10px;
+}
+table.info th {
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+img.info {
+    display:block;
+    max-height: 400px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+div.col {
+    width: 45%;
+    padding: 5px;
+}
+div.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c8290;
+    padding-bottom: 5px;
+
+}
+
+div.col1 {
+    display: inline-block;
+}
+div.col2 {
+    float: right;
+}
+
+div.Ingredients p {
+    text-align: center;
+    font-size:14px;
+    border:2px solid lightgrey;
+    padding:8px 10px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+table.Instructions p.number {
+    background-color: #6c8290;
+    color: white;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin:0;
+}
+
+table.Instructions td.Instructions-Step {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-left:10px
+}
+
+table.Instructions td {
+    vertical-align: top;
+}
+
+table.Instructions tr {
+    height:40px;
+}
+
+*{
+    overflow:auto;
+}
+
+
